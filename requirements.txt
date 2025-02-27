@@ -1,0 +1,6 @@
+streamlit
+paho-mqtt
+pandas
+altair
+folium
+streamlit-folium
