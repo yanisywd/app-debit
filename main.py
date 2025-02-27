@@ -172,7 +172,7 @@ TOPIC = "vehicule/speed"
 SAVE_DELAY = 3  # seconds of inactivity before auto-save
 
 # Path to the folder where we store CSV files
-RECORDS_DIR = "/Users/yanis/Desktop/app-fouchal-python/records"
+RECORDS_DIR = "./records"  # Use a relative path
 os.makedirs(RECORDS_DIR, exist_ok=True)
 
 # --------------------------------------------------------------------
