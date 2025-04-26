@@ -1,4 +1,3 @@
-
 import streamlit as st
 import paho.mqtt.client as mqtt
 import threading
@@ -2983,7 +2982,8 @@ elif st.session_state.current_page == "Analyse IA":
                 
                 prediction_map = create_prediction_map(df_combined, grid_df)
                 folium_static(prediction_map, width=1200, height=700)
-                
+
+
                 st.subheader("Informations sur le Modèle de Prédiction")
                 
                 from sklearn.model_selection import train_test_split
@@ -3183,10 +3183,16 @@ elif st.session_state.current_page == "Analyse IA":
                 mime="text/csv",
             )
         elif algorithm == "Prédiction de Débit":
-            csv = grid_df.to_csv(index=False)
+            csv = grid_df.to_csv(index=False) 
             st.download_button(
                 label="Télécharger la grille de prédiction (CSV)",
                 data=csv,
                 file_name="speed_predictions.csv",
                 mime="text/csv",
             )
+
+
+
+
+
+
