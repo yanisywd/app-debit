@@ -57,6 +57,3 @@ The system provides multiple AI-based analytical capabilities:
 3. Import the data into the Streamlit application for analysis
 4. Explore insights through interactive visualizations and AI-powered analytics
 
----
-
-*Developed by Yanis Yahia Ouahmed as part of a Master's program at Université de Reims Champagne-Ardenne*
